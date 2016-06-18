@@ -13,6 +13,14 @@ export class BeerList extends Component {
 }
 
 export class BeerListContainer extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      beers: []
+    }
+  }
+
   render() {
     return (
       <div>
