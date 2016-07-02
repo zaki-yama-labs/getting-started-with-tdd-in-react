@@ -2,7 +2,7 @@ import React from 'react';
 import { expect } from 'chai';
 import { shallow, mount } from 'enzyme';
 import { spy } from 'sinon';
-import { InputArea, BeerList, BeerListContainer } from './components';
+import { InputArea, BeerList, BeerListContainer } from '../src/components';
 
 describe('BeerListContainer', () => {
   it('should rencer InputArea and BeerList', () => {
